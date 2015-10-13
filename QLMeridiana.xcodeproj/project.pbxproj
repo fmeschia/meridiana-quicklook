@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30688CF01BCC98E4006668C2 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 30688CEF1BCC98E4006668C2 /* GenerateThumbnailForURL.c */; };
+		30688CF21BCC98E4006668C2 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 30688CF11BCC98E4006668C2 /* GeneratePreviewForURL.c */; };
+		30688CF41BCC98E4006668C2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 30688CF31BCC98E4006668C2 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30688CEC1BCC98E4006668C2 /* QLMeridiana.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLMeridiana.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		30688CEF1BCC98E4006668C2 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		30688CF11BCC98E4006668C2 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		30688CF31BCC98E4006668C2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		30688CF51BCC98E4006668C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30688CE81BCC98E4006668C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30688CE21BCC98E4006668C2 = {
+			isa = PBXGroup;
+			children = (
+				30688CEE1BCC98E4006668C2 /* QLMeridiana */,
+				30688CED1BCC98E4006668C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30688CED1BCC98E4006668C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30688CEC1BCC98E4006668C2 /* QLMeridiana.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30688CEE1BCC98E4006668C2 /* QLMeridiana */ = {
+			isa = PBXGroup;
+			children = (
+				30688CEF1BCC98E4006668C2 /* GenerateThumbnailForURL.c */,
+				30688CF11BCC98E4006668C2 /* GeneratePreviewForURL.c */,
+				30688CF31BCC98E4006668C2 /* main.c */,
+				30688CF51BCC98E4006668C2 /* Info.plist */,
+			);
+			path = QLMeridiana;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30688CE91BCC98E4006668C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30688CEB1BCC98E4006668C2 /* QLMeridiana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30688CF81BCC98E4006668C2 /* Build configuration list for PBXNativeTarget "QLMeridiana" */;
+			buildPhases = (
+				30688CE71BCC98E4006668C2 /* Sources */,
+				30688CE81BCC98E4006668C2 /* Frameworks */,
+				30688CE91BCC98E4006668C2 /* Headers */,
+				30688CEA1BCC98E4006668C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLMeridiana;
+			productName = QLMeridiana;
+			productReference = 30688CEC1BCC98E4006668C2 /* QLMeridiana.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30688CE31BCC98E4006668C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Francesco Meschia";
+				TargetAttributes = {
+					30688CEB1BCC98E4006668C2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 30688CE61BCC98E4006668C2 /* Build configuration list for PBXProject "QLMeridiana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30688CE21BCC98E4006668C2;
+			productRefGroup = 30688CED1BCC98E4006668C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30688CEB1BCC98E4006668C2 /* QLMeridiana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30688CEA1BCC98E4006668C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30688CE71BCC98E4006668C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30688CF01BCC98E4006668C2 /* GenerateThumbnailForURL.c in Sources */,
+				30688CF21BCC98E4006668C2 /* GeneratePreviewForURL.c in Sources */,
+				30688CF41BCC98E4006668C2 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		30688CF61BCC98E4006668C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30688CF71BCC98E4006668C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30688CF91BCC98E4006668C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLMeridiana/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fmeschia.QLMeridiana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		30688CFA1BCC98E4006668C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLMeridiana/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fmeschia.QLMeridiana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30688CE61BCC98E4006668C2 /* Build configuration list for PBXProject "QLMeridiana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30688CF61BCC98E4006668C2 /* Debug */,
+				30688CF71BCC98E4006668C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30688CF81BCC98E4006668C2 /* Build configuration list for PBXNativeTarget "QLMeridiana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30688CF91BCC98E4006668C2 /* Debug */,
+				30688CFA1BCC98E4006668C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30688CE31BCC98E4006668C2 /* Project object */;
+}
