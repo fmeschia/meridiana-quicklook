@@ -44,7 +44,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         FilePath = "/Users/franz/Documents/Development/meridiana-quicklook/qlmanage">
+         FilePath = "/Users/franz/Development/QLMeridiana/qlmanage">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
@@ -57,7 +57,7 @@
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-ti ~/Documents/MeridianaTest1.sdl"
+            argument = "-ti ~/Documents/MeridianaTest3.sdl"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

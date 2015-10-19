@@ -25,14 +25,25 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
     meridiana.ridotto = true;
     [meridiana calcola];
     
-    NSRect rect = CGRectInset([meridiana getStrictBoundingBox],-20,-20);
-    rect.origin = CGPointZero;
-    CGContextRef ctxt = QLPreviewRequestCreateContext(preview, rect.size, false, NULL);
+    CGRect rect = CGRectIntegral(CGRectInset([meridiana getStrictBoundingBox],-20,-20));
+    //CGRect rect = CGRectMake(-150,-150,300,300);
+    //rect.origin = CGPointZero;
+    CFDictionaryRef attrs =
+    (__bridge CFDictionaryRef)[NSDictionary dictionaryWithObjectsAndKeys:
+                               [NSNumber numberWithFloat:rect.size.height],
+                               (NSString *)kQLPreviewPropertyHeightKey,
+                               [NSNumber numberWithFloat:rect.size.width],
+                               (NSString *)kQLPreviewPropertyWidthKey, nil];
+    CGContextRef ctxt = QLPreviewRequestCreateContext(preview, rect.size, false, attrs);
+    CGContextSaveGState(ctxt);
     [NSGraphicsContext setCurrentContext:[NSGraphicsContext graphicsContextWithGraphicsPort:ctxt flipped:NO]];
     //CGContextClearRect(ctxt, rect);
     CGContextSetInterpolationQuality(ctxt, kCGInterpolationHigh);
     CGContextTranslateCTM(ctxt, 10, 10);
-    [meridiana drawRect:rect];
+    //CGContextClearRect(ctxt, [meridiana getStrictBoundingBox]);
+    [meridiana drawRect: rect];
+    CGContextRestoreGState(ctxt);
+    CGContextFlush(ctxt);
     QLPreviewRequestFlushContext(preview, ctxt);
     CGContextRelease(ctxt);
     return noErr;

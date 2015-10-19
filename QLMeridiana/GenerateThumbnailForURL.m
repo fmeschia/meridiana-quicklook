@@ -24,7 +24,7 @@ OSStatus GenerateThumbnailForURL(void *thisInterface, QLThumbnailRequestRef thum
     meridiana.ridotto = true;
     [meridiana calcola];
     
-    NSRect rect = [meridiana getStrictBoundingBox];
+    NSRect rect = CGRectIntegral([meridiana getStrictBoundingBox]);
     rect.origin = CGPointZero;
     
     float scale = fmin(maxSize.height*0.90 /rect.size.height, maxSize.width*0.90 / rect.size.width);
